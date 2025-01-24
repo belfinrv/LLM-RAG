@@ -25,3 +25,18 @@ This project provides an intelligent system that chats with users about **nutrit
    ```bash
    git clone https://github.com/belfinrv/LLM-RAG.git
    cd LLM-RAG
+   
+## 💡 Example Output
+
+### Question:
+`get copper`
+
+### Context:
+The system dynamically retrieves context from loaded nutrition-related documents using a Retrieval-Augmented Generation (RAG) system.
+
+### Answer:
+The RAG system processes the question in relation to the extracted nutrition content and provides a nutrition-focused answer.
+
+Below is a sample output demonstrating the system's ability to retrieve and generate context-aware answers:
+
+![Sample Output](RAGOutput.PNG)
